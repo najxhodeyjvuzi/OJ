@@ -29,9 +29,6 @@
   margin-bottom: 16px;
 }
 
-//test_test
-//增加注释
-
 #basicLayout .footer {
   background: #efefef;
   padding: 16px;

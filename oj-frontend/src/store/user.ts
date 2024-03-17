@@ -10,7 +10,6 @@ export default {
   }),
   actions: {
     getLoginUser({ commit, state }, payload) {
-      //   下一步是实现远程登陆功能
       commit("updateUser", { userName: "hzh" });
     },
   },

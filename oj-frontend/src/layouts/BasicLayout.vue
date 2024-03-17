@@ -20,17 +20,15 @@
 }
 
 #basicLayout .header {
-  background: red;
+  //background: red;
   margin-bottom: 16px;
+  box-shadow: #eee 1px 1px 5px;
 }
 
 #basicLayout .content {
   background: linear-gradient(to right, #bbb, #fff);
   margin-bottom: 16px;
 }
-
-//test_test
-//增加注释
 
 #basicLayout .footer {
   background: #efefef;

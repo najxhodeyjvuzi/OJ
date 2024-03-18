@@ -46,6 +46,7 @@ const doMenuClick = (key: string) => {
 };
 
 const store = useStore();
+// test 修正提交
 // console.log(store.state.user.loginUser);
 //
 // setTimeout(() => {

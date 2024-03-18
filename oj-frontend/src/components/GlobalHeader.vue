@@ -46,6 +46,7 @@ const doMenuClick = (key: string) => {
 };
 
 const store = useStore();
+// 现在已经完成了权限的管理。
 // console.log(store.state.user.loginUser);
 //
 // setTimeout(() => {

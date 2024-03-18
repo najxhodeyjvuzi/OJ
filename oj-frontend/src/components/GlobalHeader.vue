@@ -1,5 +1,10 @@
 <template>
-  <a-row id="globalHeader" style="margin-bottom: 16px" align="center">
+  <a-row
+    id="globalHeader"
+    style="margin-bottom: 16px"
+    align="center"
+    :wrap="false"
+  >
     <a-col flex="auto">
       <a-menu
         mode="horizontal"
@@ -22,7 +27,6 @@
       </a-menu>
     </a-col>
     <a-col flex="100px">
-      <!--      <div>{{ store.state.user?.loginUser?.username?? "未登录" }}</div>-->
       <div>{{ store.state.user?.loginUser?.userName ?? "未登录" }}</div>
     </a-col>
   </a-row>
